@@ -1,0 +1,100 @@
+<div class="dashboard-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">FinSys</a>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-primary" href="#">Join Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="text-center p-4">
+        <h2 *ngIf="userName">hey, {{ userName }} 👋</h2>
+        <h2 *ngIf="!userName">loading...</h2>
+    </section>
+
+
+    <section class="hero text-center p-5 text-white" style="background: linear-gradient(90deg, #5e1ebe, #8e18c5, #ce00e0ee);">
+        <h1 class="display-5">#Welcome to FinSys – Tipping Made Simple...</h1>
+        <p class="lead">FinSys is the easiest way to say thank you and show appreciation — no cash, no hassle, just one tap....</p>
+        <a class="btn btn-light mt-3" href="#">Join Now</a>
+    </section>
+
+    <section class="text-center p-5">
+        <h2 class="mb-4">❤️ Why Use TipEasy?</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Qwerty</h5>
+                        <p class="card-text">Fast and secure digital tipping</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">qwerty</h5>
+                        <p class="card-text">Perfect for service workers, freelancers, artists, and more</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">qwerty</h5>
+                        <p class="card-text">No app download required for the receiver</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">qwerty</h5>
+                        <p class="card-text">Every tip makes a difference!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 bg-light text-center">
+        <h3 class="mb-4">Achievements</h3>
+        <div class="row">
+            <div class="col">
+                <p><strong>50+</strong><br>Businesses</p>
+            </div>
+            <div class="col">
+                <p><strong>150+</strong><br>Users</p>
+            </div>
+            <div class="col">
+                <p><strong>10+</strong><br>Musicians</p>
+            </div>
+            <div class="col">
+                <p><strong>200+</strong><br>Waiters</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5 text-center">
+        <h3>Visit Us</h3>
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4446.646084683235!2d17.12795885860181!3d48.141440650837055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c8eeac08462ab%3A0xf3fc2f07fe3f82aa!2sPosAm%20spol.%20s%20r.o.!5e0!3m2!1sen!2ssk!4v1745236417172!5m2!1sen!2ssk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</div>
+
+<style>
+    .dashboard-container img {
+        max-width: 100%;
+        height: auto;
+    }
+    .map-responsive iframe {
+        border-radius: 10px;
+    }
+</style>
