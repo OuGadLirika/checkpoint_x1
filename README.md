@@ -1,3 +1,12 @@
+##Spustenie frontend deploymentu
+##Ak chcete zapnúť frontend aplikáciu v Kubernetes, nastavte počet replík na 1 pomocou nasledovného príkazu:
+
+kubectl scale deployment frontend-deployment --replicas=1
+
+
+Tu nebol použitý Keycloak, ale sústreďujem sa na finálny projekt. Napriek tomu to bola veľmi zaujímavá skúsenosť spustiť Kubernetes od nuly v Azure.
+
+---
 # FinSys – Jednoduché digitálne prepitné 💸
 
 ## 📅 Checkpoint: 23.4.2025  
