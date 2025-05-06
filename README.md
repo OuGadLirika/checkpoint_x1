@@ -6,6 +6,8 @@ kubectl scale deployment frontend-deployment --replicas=1
 
 Tu nebol použitý Keycloak, ale sústreďujem sa na finálny projekt. Napriek tomu to bola veľmi zaujímavá skúsenosť spustiť Kubernetes od nuly v Azure.
 
+### web
+![web obrazovka](/git/mobil.jpg)
 ---
 # FinSys – Jednoduché digitálne prepitné 💸
 
