@@ -1,6 +1,8 @@
 ##Spustenie frontend deploymentu
 ##Ak chcete zapnúť frontend aplikáciu v Kubernetes, nastavte počet replík na 1 pomocou nasledovného príkazu:
 
+##link: http://74.179.249.88/
+
 kubectl scale deployment frontend-deployment --replicas=1
 
 
